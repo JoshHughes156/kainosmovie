@@ -1,4 +1,12 @@
 
 .div1 {
-    background-color: aquamarine;
+    background-color: rgb(88, 96, 175);
+    margin-left: auto;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p.castname {
+    display: block;
 }
