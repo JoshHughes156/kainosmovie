@@ -2,7 +2,13 @@
 html
 { 
     background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-36-1.jpg); 
+    cursor: url('assets/lightsabercursor.cur'), default;
 }
+
+body {
+    cursor: url('assets/lightsabercursor.cur'), default;
+}
+
 .container1
 {
    font-size: large; 
