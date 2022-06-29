@@ -1,4 +1,20 @@
 
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.navbar {
+    background: #464646;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
 html
 { 
     background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-36-1.jpg); 
