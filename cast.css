@@ -10,3 +10,7 @@
 p.castname {
     display: block;
 }
+
+html, body {
+    cursor: url('assets/lightsabercursor.cur'), default;
+}
