@@ -3,3 +3,9 @@ html
 { 
     background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-36-1.jpg); 
 }
+.container1
+{
+   font-size: large; 
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
