@@ -13,4 +13,6 @@ p.castname {
 
 html, body {
     cursor: url('assets/lightsabercursor.cur'), default;
+    background-image: url(https://images.wallpapersden.com/image/download/star-wars-the-rise-of-skywalker_a2tqbGeUmZqaraWkpJRobWllrWdma2U.jpg);
+    background-size: cover;
 }
