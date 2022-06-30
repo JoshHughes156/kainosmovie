@@ -9,4 +9,5 @@
 html, body {
     cursor: url('assets/lightsabercursor.cur'), default;
     background-image: url(http://wallpapercave.com/wp/2QXogog.jpg);
+    background-size: cover;
 }
