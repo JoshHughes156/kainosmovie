@@ -1,0 +1,9 @@
+html
+{ 
+    background-image: "starwarsquiz.jpg"; 
+    cursor: url('assets/lightsabercursor.cur'), default;
+}
+
+body {
+    cursor: url('assets/lightsabercursor.cur'), default;
+}
