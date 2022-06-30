@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0 25px 10px 25px;
+    padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
     scroll-behavior: smooth;
   }
@@ -242,10 +242,40 @@ background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, F
 -moz-background-clip: text;
 -webkit-text-fill-color: transparent;
 -moz-text-fill-color: transparent;
-right: auto;
+
 }
     
 
+.highlight {
+  border-bottom: 4px solid 4px solid rgb(132, 0, 255)
+}
+
+@media screen and (max-width: 768px) {
+  .hero__heading{
+    font-size: 60px;
+  }
+  .hero_description{
+    font-size: 15px;
+  }
+}
+
+.main {
+  background: #131313;
+  padding: 10rem 0;
+}
+.main__container {
+  display: grid;
+  grid-template-columns: lfr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding:  0 50px;
+
+}
 html
 { 
     background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-36-1.jpg) ; 

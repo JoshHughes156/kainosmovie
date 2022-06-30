@@ -1,0 +1,12 @@
+#div2 {
+    background-color: rgb(88, 96, 175);
+    margin-left: auto;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+html, body {
+    cursor: url('assets/lightsabercursor.cur'), default;
+    background-image: url(http://wallpapercave.com/wp/2QXogog.jpg);
+}
