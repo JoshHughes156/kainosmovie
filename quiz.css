@@ -23,3 +23,25 @@ p{
     scroll-behavior: smooth;
     color: white;
 }
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    positon: sticky;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*To change the colour on hover*/
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }

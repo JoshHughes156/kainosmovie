@@ -260,7 +260,7 @@ background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, F
 }
 
 .main {
-  background: #131313;
+  background-image: url(https://graffitiwallpaper.com/pics/listings/337_landscape.jpg);
   padding: 10rem 0;
 }
 .main__container {
@@ -276,9 +276,100 @@ background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, F
   padding:  0 50px;
 
 }
+.main__content {
+  color: #fff;
+  width: 100%;
+
+}
+
+.main__content h1{
+  font-size: 2rem;
+  background-color:  #761aef;
+  background-image: linear-gradient(to top,  #A770EF 0%, #FDB99B 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+
+
+}
+
+.main__content h2 {
+  font-size: 4rem;
+  background-color:  #761aef;
+  background-image: linear-gradient(to top,  #A770EF 0%, #FDB99B 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+/*Temporary h5 css code*/
+.main__content h3 {
+background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size:100%;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+}
+
+.main__content p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+.main__btn { 
+  font-size: 1.8rem;
+  background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+
+
+
+}
+.main__btn a {
+  position: relative;
+  z-index: 2;
+  color :#fff;
+  text-decoration: none;
+
+}
+
+.main__btn:after {
+  position: absolute;
+  content: ' ';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 10;
+  background: #A770EF;
+  transition: all 0.35s;
+  border-radius: 4px;
+
+}
+.main_btn:hover {
+  color: #fff;
+}
+.main_btn:hover:after {
+  width: 100%;
+}
 html
 { 
-    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-36-1.jpg) ; 
     cursor: url('assets/lightsabercursor.cur'), default;
 }
 
