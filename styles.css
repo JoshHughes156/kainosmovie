@@ -276,6 +276,26 @@ background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, F
   padding:  0 50px;
 
 }
+.main__content {
+  color: #fff;
+  width: 100%;
+
+}
+
+.main__content h1{
+  font-size: 2rem;
+  background-color:  #761aef;
+  background-image: linear-gradient(to top,  #A770EF 0%, #FDB99B 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+
+
+}
 html
 { 
     background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-36-1.jpg) ; 
