@@ -1,9 +1,25 @@
 html
 { 
-    background-image: url(https://www.mirror.co.uk/tv/tv-news/star-wars-quiz-prove-youre-3487017); 
+    background-image: url("starwarsquiz.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     cursor: url('assets/lightsabercursor.cur'), default;
 }
 
 body {
     cursor: url('assets/lightsabercursor.cur'), default;
+}
+
+h1{
+    color: white;
+}
+
+p{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+    color: white;
 }
