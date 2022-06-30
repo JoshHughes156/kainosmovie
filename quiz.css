@@ -1,6 +1,6 @@
 html
 { 
-    background-image: "starwarsquiz.jpg"; 
+    background-image: url(https://www.mirror.co.uk/tv/tv-news/star-wars-quiz-prove-youre-3487017); 
     cursor: url('assets/lightsabercursor.cur'), default;
 }
 
